@@ -268,11 +268,121 @@
 
 # print(data["properties"]["age"]["description"])
 
-text1="python"
-text2="so good"
-number=1934
-score=12.96789
+# text1="python"
+# text2="so good"
+# number=1934
+# score=12.96789
 
-# output="%7.20f"%score
-output="%20s"%text1
-print(output)
+# # output="%7.20f"%score
+# output="%20s"%text1
+# print(output)
+
+#bool (0 False null None "") ----->False
+
+# while i:=int(input("enter a number: ")):
+#     print("less")
+
+
+# break           close
+# continue
+# pass
+# return
+# yield
+
+# while True:
+#     i=input("enter any number to persume or nothing to exit: ")
+#     if i==False or i==None or i=="":
+#         break
+#     else:
+#         print("another try: ")
+
+
+# i=0
+# while i<100:
+#     if i%2==0:
+#         print(i)
+#     else:
+#         i+=1
+#         continue
+#     i+=1
+
+
+# i=-1
+# while i<100:
+#     i+=1
+#     if i%2==0:
+#         print(i)
+#     else:     
+#         continue
+# answer=int(input("answer of the turn: "))
+
+# while True:
+#     i=input("enter any number to persume or nothing to exit: ")
+#     if i==False or i==None or i=="":
+#         break
+#     i=int(i)
+#     if i>answer:
+#         print("guess less")
+#     elif i<answer:
+#         print("guess more")
+#     else:
+#         print("ok")
+#         break
+
+
+# i=0
+
+# while i<5:
+#     print(i)
+#     i+=1
+# else:
+#     print("reach")
+
+
+# i=10
+
+# if i<20:
+#     print(True)
+# else:
+#     print(False)
+
+# print(True) if i<20 else print(False)
+
+
+# if () {
+#     command;
+# }
+
+
+# for counter in object:
+#     body
+
+
+# text="python"
+
+# for alireza in text:
+#     print(alireza)
+
+
+# numbers="123456789"
+
+# for i in numbers:
+#     print(i)
+
+# range(start,stop,step)
+
+# R=range(1,10,1)
+# print(list(R))
+
+# for r in R:
+#     print(r)
+
+# s=""
+# for i in range(10):
+#     s=s+str(i)
+# print(s)
+
+s=""
+for i in range(ord("A"),ord("Z")+1):
+    s+=chr(i)
+print(s)
