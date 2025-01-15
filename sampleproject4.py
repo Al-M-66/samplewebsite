@@ -382,7 +382,28 @@
 #     s=s+str(i)
 # print(s)
 
-s=""
-for i in range(ord("A"),ord("Z")+1):
-    s+=chr(i)
-print(s)
+# s=""
+# for i in range(ord("A"),ord("Z")+1):
+#     s+=chr(i)
+# print(s)
+
+
+# one get three charachter and print all jaygasht
+# cds    cds sdc dsc 
+
+# change your name from lowercase to uppercase
+
+# print a all shape of a number base on star
+
+# 5
+# * * * * *
+# * * * * *
+# * * * * *
+# * * * * *
+# * * * * *
+
+
+#     *
+#    * *
+
+# bob   98+102+98
